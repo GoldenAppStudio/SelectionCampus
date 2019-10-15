@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".QuizActivity">
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/questionTxt"
+                android:textAlignment="center"
+                android:textColor="#ffff"
+                android:textSize="20sp"
+                android:text="Please Wait...\nLoading.... "
+                android:padding="10dp"/>
+
+
+
+            <Button
+                android:layout_marginTop="75dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20sp"
+                android:layout_marginLeft="20sp"
+                android:background="#03A9F4"
+                android:padding="10dp"
+                android:textAlignment="center"
+                android:layout_below="@+id/questionTxt"
+                android:textSize="20sp"
+                android:text="Loading...."
+                android:id="@+id/button1"/>
+            <Button
+                android:layout_marginTop="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20sp"
+                android:layout_marginLeft="20sp"
+                android:background="#03A9F4"
+                android:padding="10dp"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:text="Loading...."
+                android:id="@+id/button2"
+                android:layout_below="@+id/button1"
+                />
+
+            <Button
+                android:layout_marginTop="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20sp"
+                android:layout_marginLeft="20sp"
+                android:background="#03A9F4"
+                android:padding="10dp"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:text="Loading..."
+               android:layout_below="@+id/button2"
+                android:id="@+id/button3"/>
+            <Button
+                android:layout_marginTop="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20sp"
+                android:layout_marginLeft="20sp"
+                android:background="#03A9F4"
+                android:padding="10dp"
+                android:textAlignment="center"
+                android:layout_below="@+id/button3"
+                android:textSize="20sp"
+                android:text="Loading...."
+                android:id="@+id/button4"
+                />
+
+
+
+                <TextView
+                    android:layout_marginTop="40dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="25sp"
+                    android:layout_below="@+id/button4"
+                    android:text="00:00"
+                    android:textColor="#ff0000"
+                    android:textAlignment="center"
+                    android:id="@+id/timerTxt"/>
+
+
+
+
+
+
+        <Button
+            android:layout_marginTop="5000dp"
+            android:id="@+id/popup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/timerTxt"
+            android:background="#000"
+            android:onClick="ShowPopup"
+            android:text="show popup"
+            android:textColor="#fff"
+            android:visibility="visible" />
+
+</RelativeLayout>

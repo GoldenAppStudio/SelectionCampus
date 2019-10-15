@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/about_us"
+            android:title="About" />
+
+        <item
+            android:id="@+id/nav_contact_us"
+            android:icon="@drawable/contact_us"
+            android:title="Contact Us" />
+        <item
+            android:id="@+id/nav_facebook"
+            android:icon="@drawable/facebook"
+            android:title="Facebook" />
+        <item
+            android:id="@+id/nav_register"
+            android:icon="@drawable/register"
+            android:title="Update Info" />
+
+        <item
+            android:id="@+id/nav_videos"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Videos" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/power"
+            android:title="Logout" />
+        <item
+            android:id="@+id/nav_exit"
+            android:icon="@drawable/exit"
+            android:title="Exit" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_rate_us"
+                android:icon="@drawable/rate_us_like"
+                android:title="Rate Us" />
+
+
+            <item
+                android:id="@+id/nav_developers"
+                android:icon="@drawable/dev"
+                android:title="Developers" />
+            <item
+                android:id="@+id/nav_report"
+                android:icon="@drawable/report_bug"
+                android:title="Report Bug" />
+            <item
+                android:id="@+id/nav_app_version"
+                android:icon="@drawable/android"
+                android:title="App Version" />
+        </menu>
+    </item>
+
+</menu>
